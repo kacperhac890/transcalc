@@ -27,7 +27,7 @@ import {
 } from 'lucide-react';
 import { DICTIONARY, TAX_RATES, FUEL_CONSUMPTION_L_PER_100KM } from './constants';
 import { Language, Currency, CalculationResults, SavedTrip, User } from './types';
-import { fetchEurPlnRate } from './services/geminiService';
+import { fetchEurPlnRate } from '.geminiService';
 import { initAuth, getCurrentUser, logout } from './services/authService';
 import Login from './Login';
 import AdminPanel from './AdminPanel';
